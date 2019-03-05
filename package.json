@@ -2,12 +2,18 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ranit-geek.github.io/ranit-geek.github.io",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-mdl": "^1.11.0",
+    "react-particle-animation": "^1.0.1",
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

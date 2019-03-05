@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ParticleAnimation from 'react-particle-animation'
+import ProgressBar from 'react-mdl'
 
 class App extends Component {
   render() {
     return (
+      
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <ParticleAnimation
+          numParticles={50}
+          color= {{r :158, g: 217, b: 249, a: 255 }}
+          background = {{r :0, g: 40, b: 20, a: 100 }}
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%'
+          }}
+        />
+    
+  
       </div>
+
+  
     );
   }
 }
