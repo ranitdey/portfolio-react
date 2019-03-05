@@ -11,7 +11,7 @@ class App extends Component {
           <ParticleAnimation
           numParticles={50}
           color= {{r :158, g: 217, b: 249, a: 255 }}
-          background = {{r :0, g: 40, b: 20, a: 100 }}
+          background = {{r :247, g: 249, b: 249, a: 50 }}
           style={{
             position: 'absolute',
             width: '100%',
