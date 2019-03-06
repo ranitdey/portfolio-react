@@ -1,28 +1,44 @@
 import React, { Component } from 'react';
 import './App.css';
+import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
 import ParticleAnimation from 'react-particle-animation'
-import ProgressBar from 'react-mdl'
 
 class App extends Component {
   render() {
     return (
-      
       <div className="App">
-          <ParticleAnimation
-          numParticles={50}
-          color= {{r :158, g: 217, b: 249, a: 255 }}
-          background = {{r :100, g: 0, b: 0, a: 0 }}
+      <ParticleAnimation
+          numParticles={500}
           style={{
             position: 'absolute',
             width: '100%',
             height: '100%'
           }}
         />
-    
-  
+      <div className="demo-big-content">
+    <Layout>
+        <Header title="My Portfolio" scroll>
+            <Navigation>
+                <a href="/">Resume</a>
+                <a href="/">About Me</a>
+                <a href="/">Projects</a>
+                <a href="/">Contact</a>
+            </Navigation>
+        </Header>
+        <Drawer title="Title">
+            <Navigation>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+        </Content>
+    </Layout>
+</div>
       </div>
-
-  
     );
   }
 }
