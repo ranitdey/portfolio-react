@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import {Layout, Header, Navigation, Drawer, Content, Grid, Cell} from 'react-mdl'
 import ParticleAnimation from 'react-particle-animation'
+import Main from './components/main'
+import {Link} from 'react-router-dom'
 
 class App extends Component {
   render() {
@@ -15,14 +17,14 @@ class App extends Component {
             height: '100%'
           }}
         />
-      <div className="demo-big-content">
+    
     <Layout>
-        <Header title="My Portfolio" scroll>
+        <Header title="Ranit's Portfolio" scroll>
             <Navigation>
-                <a href="/">Resume</a>
-                <a href="/">About Me</a>
-                <a href="/">Projects</a>
-                <a href="/">Contact</a>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
@@ -35,10 +37,10 @@ class App extends Component {
         </Drawer>
         <Content>
             <div className="page-content" />
+            <Main/>
         </Content>
     </Layout>
 </div>
-      </div>
     );
   }
 }
