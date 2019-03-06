@@ -22,17 +22,30 @@ class App extends Component {
         <Header className="header-color" title="Ranit's Portfolio" scroll>
             <Navigation>
                 <Link to="/Resume" >Resume</Link>
-                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Skills">Skills</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
+                <Link to="/">
+                <img src="https://mycs.net.au/wp-content/uploads/2016/03/home-icon-flat.png"
+                className="home-img">
+                </img>
+                </Link>
+
+               
             </Navigation>
         </Header>
+        
         <Drawer title="Title">
             <Navigation>
                 <Link to="/Resume">Resume</Link>
-                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Skills">Skills</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
+                <Link to="/">
+                <img src="https://mycs.net.au/wp-content/uploads/2016/03/home-icon-flat.png"
+                className="home-img">
+                </img>
+                </Link>
             </Navigation>
         </Drawer>
         <Content>
