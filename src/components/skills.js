@@ -3,6 +3,7 @@ import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
 import {ProgressBar} from 'react-mdl'
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
+import {Tooltip, Icon} from 'react-mdl'
 
 class Skills extends Component
 {
@@ -35,6 +36,11 @@ class Skills extends Component
         <div className="express-progress" style={{width: '80%',height:'4%', margin: 'auto', }}>
           <Progress percent={88} status="active" />
           </div>
+     
+          <Tooltip label="Follow" position="bottom">
+    <Icon name="arrow_downward" />
+</Tooltip>
+          
  
 
           
@@ -62,7 +68,11 @@ class Skills extends Component
 </svg>
         <div className="express-progress" style={{width: '80%',height:'4%', margin: 'auto', }}>
           <Progress percent={55} status="active" />
-          </div>
+          </div> 
+          <Tooltip label="Follow" position="bottom">
+    <Icon name="arrow_downward" />
+</Tooltip>
+          
         </ParallaxLayer>
 
         <ParallaxLayer
