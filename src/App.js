@@ -19,9 +19,9 @@ class App extends Component {
         />
     
     <Layout>
-        <Header title="Ranit's Portfolio" scroll>
+        <Header className="header-color" title="Ranit's Portfolio" scroll>
             <Navigation>
-                <Link to="/Resume">Resume</Link>
+                <Link to="/Resume" >Resume</Link>
                 <Link to="/AboutMe">About Me</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
@@ -29,10 +29,10 @@ class App extends Component {
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/AboutMe">About Me</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/Contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
