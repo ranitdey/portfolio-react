@@ -35,7 +35,7 @@ class App extends Component {
             </Navigation>
         </Header>
         
-        <Drawer title="Title">
+        <Drawer title="Ranit's Portfolio">
             <Navigation>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/Skills">Skills</Link>

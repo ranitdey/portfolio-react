@@ -49,6 +49,68 @@ opacity: .7;
   border-radius: 10px;
 }
 
+.selenium{
+  margin: auto 165px;
+  float: center ;
+  width: 270px;
+  height: 240px;
+}
+.appium{
+  margin: auto 165px;
+  float: center ;
+  width: 270px;
+  height: 100px;
+}
+.postman{
+  margin: auto 165px;
+  float: center ;
+  width: 270px;
+  height: 100px;
+}
+.gatling{
+  margin: auto 165px;
+  float: center ;
+  width: 270px;
+  height: 100px;
+}
+.python{
+  margin: auto 215px;
+  float: center ;
+  width: 270px;
+  height: 100px;
+}
+.javascript{
+  margin: auto 225px;
+  float: center ;
+  width: 100px;
+  height: 100px;
+}
+
+.nodejs-progress {
+  margin: auto -0px;
+  float: center ;
+  width: 900px;
+  height: 400px;
+ 
+
+}
+.express-progress {
+  margin:  -100px;
+  float: center ;
+  width: 900px;
+  height: 900px;
+  vertical-align: top;
+
+}
+.jenkins {
+  margin:  200px;
+  float: center ;
+  width: 150;
+  height: 150;
+  vertical-align: top;
+
+}
+
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
