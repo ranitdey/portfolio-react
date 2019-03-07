@@ -22,18 +22,18 @@ class Skills extends Component
    
 
         <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 } } onClick={() => this.parallax.scrollTo(2)}>
-          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
-          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '55%' }} onClick={() => this.parallax.scrollTo(2)} />
+          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '15%' }} onClick={() => this.parallax.scrollTo(2)}/>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.75} speed={0.5} style={{ opacity: 0.1 }} onClick={() => this.parallax.scrollTo(2)}>
-          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '70%' }} />
-          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '70%' }} onClick={() => this.parallax.scrollTo(2)}/>
+          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} onClick={() => this.parallax.scrollTo(2)}/>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }} onClick={() => this.parallax.scrollTo(2)}>
-          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '10%' }} />
-          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '75%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '10%' }} onClick={() => this.parallax.scrollTo(2)}/>
+          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '75%' }} onClick={() => this.parallax.scrollTo(2)}/>
         </ParallaxLayer>
 
 
