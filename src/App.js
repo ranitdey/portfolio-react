@@ -38,7 +38,7 @@ class App extends Component {
         <Drawer title="Ranit's Portfolio">
             <Navigation>
                 <Link to="/Resume">Resume</Link>
-                <Link to="/Skills">Skills</Link>
+                <Link to="/Skills" >Skills</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/">
