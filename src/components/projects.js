@@ -16,8 +16,6 @@ class Projects extends Component
     
       render() {
         return(
-          
-           
           <div>
            
               <Grid>
@@ -60,6 +58,22 @@ class Projects extends Component
               </Card>
               
             </div>
+                </Cell>
+
+                <Cell col={13}>
+                <Card shadow={5} style={{minWidth: '410px', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*Tv6O3_ZEH6lukEIiLrdMsQ.png) center / cover'}} />
+                <CardText>
+                Serverless api built using Serverless framework , Lambda functions , AWS API Gateway Proxy and NodeJS .This API uses MongoDB as a database for all CRUD operations.
+                </CardText>
+                <CardActions border>
+               
+                <Button onClick={() =>window.open(' https://github.com/ranit-geek/serverless-api-lambda','height=250,width=250')} colored>GitHub</Button>
+               
+    
+                </CardActions>
+         
+              </Card>
                 </Cell>
               </Grid>
           </div>

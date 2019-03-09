@@ -45,7 +45,7 @@ class Skills extends Component
         </ParallaxLayer>
 
         <ParallaxLayer offset={2.3} speed={-0.4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' ,opacity: 0.6 }}>
-          <img src="https://www.import.io/wp-content/uploads/2017/10/React-logo.png" style={{ width: '15%' }} />
+          <img src="https://datadog-docs.imgix.net/images/integrations_logos/amazon_lambda-0831b10d.png" style={{ width: '20%' }} />
         </ParallaxLayer>
        
 
