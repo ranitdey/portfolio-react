@@ -43,7 +43,7 @@ class Resume extends Component
                     startYear={2018}
                     endYear= "Till Present"
                     jobName="Zapr Media Labs"
-                    jobDescription="Developed mobile automation framework using Appium and Python. Developed Api automation framework using Requests and Python.Mocked servers using NodeJS and ExpressJS. Used MITM Proxy/ Charles Proxy to intercept http calls. Used Postman to test Rest API's.Worked in development of API side using NodeJS and MongoDB."
+                    jobDescription="Developed mobile automation framework using Appium and Python. Developed Api automation framework using Requests and Python.Mocked servers using NodeJS and ExpressJS. Used MITM Proxy/ Charles Proxy to intercept http calls. Used Postman to test Rest API's.Worked in development of API side using NodeJS and MongoDB. Worked with AWS technologies like EC2, Lambda, S3 etc."
                     />
                   <hr style={{borderTop: '3px solid #e22947'}} />
                   <h2>Skills</h2>

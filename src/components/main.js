@@ -4,7 +4,7 @@ import LandingPage from './landingpage'
 import Contact from './contact'
 import Projects from './projects'
 import Resume from './resume'
-import Skills from './skills';
+import Skills from './skills'
 
 const Main = ( )=>(
     
