@@ -8,8 +8,8 @@ class Contact extends Component
             <Grid className="contact-grid">
               <Cell col={6}>
                 <h2>Ranit Dey</h2>
-                <img className ="contact-image"
-                  src="https://camo.githubusercontent.com/0ecfd68856bedf2d56070afe2e2ff89780b1980a/68747470733a2f2f696d6167652e6962622e636f2f6a456b6364642f66726f6e745f656e645f646576656c6f706572735f6f70656e696e67735f312e676966"
+                <img
+                  src="https://cdn2.iconfinder.com/data/icons/men-avatars/33/man_20-512.png"
                   alt="avatar"
                   style={{height: '250px'}}
                    />
