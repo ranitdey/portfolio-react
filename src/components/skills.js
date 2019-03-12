@@ -118,7 +118,7 @@ class Skills extends Component
           speed={0.1}
           onClick={() => this.parallax.scrollTo(1)}
           style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <img src="https://png2.kisspng.com/sh/739861aa9835e998df6718a46b5eadab/L0KzQYm3V8IxN5xojJH0aYP2gLBuTfpifpJ4eARycISwfLFuj71pfJ5xRdV1aYCwccP7TfpifpJ4eARycISwfLFuj702amY2UKprMXG1cYLtWb4zPGM9TqsDOUG4Q4O3V8AxPmY7Tqg7LoDxd1==/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b1a2a1f9.2428698915320700656662.png" style={{ display: 'block', width: '15%', marginLeft: '-67%' }} />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" style={{ display: 'block', width: '15%', marginLeft: '-67%' }} />
          </ParallaxLayer>
 
         <ParallaxLayer
