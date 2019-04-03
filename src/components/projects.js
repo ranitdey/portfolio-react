@@ -22,7 +22,6 @@ class Projects extends Component
               <Content />,
                 <Cell col={12}>
                 <div className="projects-grid">
-              {/* Project 1 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '220px', background: "url(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/94490461/original/86eb94463df4b2580d64affd83e74e3fbf02c2de/nodejs-and-express-application.jpg) center / cover"}} />
                 <CardText>
@@ -60,21 +59,48 @@ class Projects extends Component
             </div>
                 </Cell>
 
+
                 <Cell col={13}>
-                <Card shadow={5} style={{minWidth: '410px', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*Tv6O3_ZEH6lukEIiLrdMsQ.png) center / cover'}} />
+                <div className="projects-grid1">
+              
+                <Card shadow={6} style={{minWidth: '420px', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '200px',width:'410px', background: 'url(https://poiemaweb.com/img/socketio-logo.png) center / cover'}} />
                 <CardText>
-                Serverless api built using Serverless framework , Lambda functions , AWS API Gateway Proxy and NodeJS .This API uses MongoDB as a database for all CRUD operations.
-                </CardText>
-                <CardActions border>
+               Live streaming server from webcam built using Node.js , Express.js , SocketIO and OpenCV.
+                  </CardText>
+                   <CardActions border>
                
-                <Button onClick={() =>window.open(' https://github.com/ranit-geek/serverless-api-lambda','height=250,width=250')} colored>GitHub</Button>
+                    <Button onClick={() =>window.open('https://github.com/ranit-geek/Webcam-live-streaming','height=250,width=250')} colored>GitHub</Button>
                
     
-                </CardActions>
+                    </CardActions>
          
-              </Card>
+                  </Card>
+
+                  </div>
                 </Cell>
+
+                <Cell col={14}>
+                <div className="projects-grid2">
+          
+                   <Card shadow={5} style={{minWidth: '450px', margin: 'auto'}}>
+                     <CardTitle style={{color: '#fff', height: '180px',width:'400px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*Tv6O3_ZEH6lukEIiLrdMsQ.png) center / cover'}} />
+                     <CardText>
+                      Serverless api built using Serverless framework , Lambda functions , AWS API Gateway Proxy and NodeJS .This API uses MongoDB as a database for all CRUD operations.
+                      </CardText>
+                      <CardActions border>
+               
+                      <Button onClick={() =>window.open(' https://github.com/ranit-geek/serverless-api-lambda','height=250,width=250')} colored>GitHub</Button>
+               
+    
+                      </CardActions>
+         
+                    </Card> 
+                    </div>
+                </Cell>
+              
+            
+
               </Grid>
           </div>
         )

@@ -18,6 +18,13 @@ opacity: .7;
 .projects-grid {
   display: flex;
 }
+.projects-grid1 {
+  display: flex;
+}
+
+.projects-grid2 {
+  display: flex;
+}
 
 .contact-body {
   margin: auto;
@@ -85,6 +92,7 @@ opacity: .7;
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0.7;
 }
 .avatar-img {
   height: 280px;
