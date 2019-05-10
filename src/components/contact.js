@@ -9,7 +9,7 @@ class Contact extends Component
               <Cell col={6}>
                 <h2>Ranit Dey</h2>
                 <img
-                  src="https://cdn2.iconfinder.com/data/icons/men-avatars/33/man_20-512.png"
+                  src="https://media.giphy.com/media/KDhfrexg640D0q9We2/giphy.gif"
                   alt="avatar"
                   style={{height: '250px'}}
                    />

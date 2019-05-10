@@ -96,8 +96,7 @@ opacity: .7;
 }
 .avatar-img {
   height: 280px;
-  position: inherit;
-  padding-top: 5em;
+  padding-top: 0em;
 }
 
 .home-img {
