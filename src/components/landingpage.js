@@ -12,7 +12,7 @@ class LandingPage extends Component
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src='https://cdn.dribbble.com/users/512945/screenshots/3002987/geek_character.png'
+              src='https://media.giphy.com/media/Kbwh1j69ubYGkleKQX/giphy.gif'
               alt="avatar"
               className="avatar-img"
               />
