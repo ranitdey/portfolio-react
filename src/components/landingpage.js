@@ -18,7 +18,7 @@ class LandingPage extends Component
               />
 
             <div className="banner-text">
-              <h1>Software Engineer</h1>
+              <h1>Senior Software Engineer</h1>
 
             <hr/>
 

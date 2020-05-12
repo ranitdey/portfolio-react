@@ -26,9 +26,7 @@ class App extends Component {
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/">
-                <img src="https://mycs.net.au/wp-content/uploads/2016/03/home-icon-flat.png"
-                className="home-img">
-                </img>
+                Home
                 </Link>
 
                

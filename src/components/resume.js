@@ -18,9 +18,9 @@ class Resume extends Component
                 </div>
     
                 <h2 style={{paddingTop: '2em'}}>Ranit Dey</h2>
-                <h4 style={{color: 'grey'}}>Software Engineer</h4>
+                <h4 style={{color: 'grey'}}>Senior Software Engineer</h4>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                <p>An Software Engineer, having 2+ years of experience in developing frameworks for automation (selenium,appium using Java,Python and Javascript) and RESTful API development using NodeJs and Express.JS</p>
+                <p>A Software Engineer having 3.6+ years of experience in development of scalable REST/GraphQL API's and distributed systems.</p>
                 <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                 
                 <h5>Phone</h5>
@@ -36,20 +36,19 @@ class Resume extends Component
                   startYear={2016}
                   endYear={2018}
                   jobName="CGI"
-                  jobDescription="Developed an automation framework for RFS 360 Web Services and was responsible for writing code changes for API.Involvement in designing API side framework.
-                  Involved in Automation Infrastructure Development using Selenium."
+                  jobDescription="Responsible for building scalable API's for backend of RFS banking application using Spring-Boot"
                   />
                   <Experience
                     startYear={2018}
                     endYear= "Till Present"
                     jobName="Zapr Media Labs"
-                    jobDescription="Developed mobile automation framework using Appium and Python. Developed Api automation framework using Requests and Python.Mocked servers using NodeJS and ExpressJS. Used MITM Proxy/ Charles Proxy to intercept http calls. Used Postman to test Rest API's.Worked in development of API side using NodeJS and MongoDB. Worked with AWS technologies like EC2, Lambda, S3 etc."
+                    jobDescription="Acted as an tech lead for building an recommendation app called DEKHO(100k+ downloads in PlayStore).Architected and implemented the backend API's and systems for this app"
                     />
                   <hr style={{borderTop: '3px solid #e22947'}} />
                   <h2>Skills</h2>
                   <Progress
                     skill="Java"
-                    progress={80} 
+                    progress={88} 
                     />
                     <Progress
                       skill="Python"
@@ -57,18 +56,18 @@ class Resume extends Component
                       />
                       <Progress
                       skill="JavaScript"
-                      progress={80}
+                      progress={86}
                       />
                       <Progress
                         skill="NodeJS"
                         progress={85}
                         />
                         <Progress
-                          skill="Selenium"
+                          skill="AWS"
                           progress={85}
                           />
                           <Progress
-                          skill="Appium"
+                          skill="Distributed Systems"
                           progress={88}
                           />
               </Cell>
